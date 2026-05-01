@@ -1,0 +1,5 @@
+Welcome to Dev-Space :3 <br> <font color="Blue">ANOUNCEMENT:</font> <br>
+          Hello, the school year is almost over and finals are around the corner, because of this i wont be working onthe site until next school year.
+          <br><br> SOME THINGS TO COME:<br> Better loading times, more activitys, better information, recogmended activitys, a discord server, and more!
+          <br> thanks for sticking with the site, and dont be afraid to share it with others any time :D <br>
+          <font color="lime">Ps- some activitys will only load when hosted on an actual site, try using something like jsdelivr to host it. </font>
