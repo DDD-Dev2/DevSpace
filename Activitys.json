@@ -1558,7 +1558,7 @@
     
   },
   { "key": "htmlCode",
-    
+    "isRecommended": "true",
     "name": "ULTRAKILl",
     "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/196.png",
     "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/196-fixed.html"
@@ -2964,7 +2964,7 @@
     
   },
   { "key": "htmlCode",
-    
+    "isRecommended": "true",
     "name": "Binding of Issac: Wrath of the Lamb",
     "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/350.png",
     "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/350.html"
@@ -3916,7 +3916,7 @@
     
   },
   { "key": "htmlCode",
-    
+    "isRecommended": "true",
     "name": "Cuphead",
     "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/465.png",
     "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/465.html"
@@ -5164,7 +5164,7 @@
     
   },
   { "key": "htmlCode",
-    
+    "isRecommended": "true",
     "name": "Tattletail",
     "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/607.png",
     "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/607-e.html"
@@ -5596,7 +5596,7 @@
     
   },
   { "key": "htmlCode",
-    
+    "isRecommended": "true",
     "name": "Look Outside",
     "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/649.png",
     "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/649.html"
@@ -5770,7 +5770,7 @@
     
   },
   { "key": "htmlCode",
-    
+    "isRecommended": "true",
     "name": "Terraria",
     "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/669.png",
     "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/669.html"
@@ -7084,6 +7084,7 @@
   },
   { 
     "key": "htmlCode",  
+    "isRecommended": "true",
     "name": "Geometry Dash",
     "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/785.png",
     "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/785-upd.html"
@@ -7108,6 +7109,7 @@
   },
   { 
     "key": "htmlCode",
+    "isRecommended": "true",
     "name": "Stardew Valley",
     "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/789.png",
     "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/789.html"
@@ -7266,7 +7268,27 @@
     "name": "Need For Speed: Underground 2",
     "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/812.png",
     "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/812.html"  
-    
-  }
+  },
+  {
+    "key": "htmlCode",
+    "name": "Five Nights at Frickbear's 3",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/813.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/813-f.html"
+   
+  },
+  {
+  "key": "htmlCode",
+  "isRecommended": "true",
+  "name": "My Friend Pedro",
+  "img": "https://upload.wikimedia.org/wikipedia/en/5/5f/My_Friend_Pedro.jpg",
+  "url": "https://cdn.jsdelivr.net/gh/bubbls/ugs-singlefile/UGS-Files/clmyfriendpedro.html"  
+},
+{
+  "key": "htmlCode",
+  
+  "name": "My Friend Pedro Arena",
+  "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTteRvE_6DzKoYgEglm7YjQ1ZWV081i4A06tw&s",
+  "url": "https://cdn.jsdelivr.net/gh/bubbls/ugs-singlefile/UGS-Files/clmyfriendpedroarena.html"  
+}
 
 ]
