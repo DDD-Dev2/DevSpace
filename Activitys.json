@@ -1581,7 +1581,8 @@
     
     "name": "Slope",
     "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/198.png",
-    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/198.html"
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/198.html",
+    "isRecommended": "true"
     
     
   },
@@ -3953,7 +3954,8 @@
     
     "name": "Hollow Knight",
     "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/468.png",
-    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/468-f.html"
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/468-f.html",
+    "isRecommended": "true"
     
     
  
@@ -5336,7 +5338,8 @@
     
     "name": "Celeste",
     "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/623.png",
-    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/623-work.html"
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/623-work.html",
+    "isRecommended": "true"
     
     
     
@@ -6803,7 +6806,8 @@
     
     "name": "Hollow Knight: Silksong",
     "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/771.png",
-    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/771-z.html"
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/771-z.html",
+    "isRecommended": "true"
     
     
  
@@ -6853,7 +6857,8 @@
     
     "name": "Your Only Move Is HUSTLE",
     "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/776.png",
-    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/776.html"
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/776.html",
+    "isRecommended": "true"
     
     
  
@@ -6898,17 +6903,20 @@
   {
             "name": "Undertale",
             "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWVDhZXnQycQop0dv4r6EzTXNSLqHjGm05UA&s",
-            "url": "http://earnest-klepon-5466ed.netlify.app/undertale.html"
+            "url": "http://earnest-klepon-5466ed.netlify.app/undertale.html",
+            "isRecommended": "true"
           },
           {
             "name": "Deltarune",
             "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuda-PqJDD5ism1eUALbQHWmx-8Wzs23mpfQ&s",
-            "url": "https://incredible-genie-7c7d8a.netlify.app/webports/deltarune/index.html"
+            "url": "https://incredible-genie-7c7d8a.netlify.app/webports/deltarune/index.html",
+            "isRecommended": "true"
           },
 {
   "name": "xtreme good guys vs bad",
             "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaK1cg-p5HqBHnfTzbKKZ9HZ_MV-aG2tleyg&s",
-            "url": "https://exquisite-gumdrop-e463f1.netlify.app/xtreme_good_guys_vs_bad.html"
+            "url": "https://exquisite-gumdrop-e463f1.netlify.app/xtreme_good_guys_vs_bad.html",
+            "isRecommended": "true"
 },
 {
   "key": "EJS",
@@ -7154,5 +7162,111 @@
     "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/797.png",
     "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/797.html"
     
+  },
+   {
+    
+    "name": "Hungry Lamu",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/798.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/798.html" 
+    
+  },
+  {
+    
+    "name": "Hungry Lamu 2",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/799.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/799-fix.html" 
+   
+  },
+  {
+    
+    "name": "Rocket Goal.io",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/800.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/800-fix.html"
+    
+  },
+  {
+    
+    "name": "Trees Hate You",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/801.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/801-fix.html"
+   
+  },
+  {
+    
+    "name": "Scampton The Great",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/802.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/802.html"
+    
+  },
+  {
+    
+    "name": "Bendy and the Ink Machine: ALL CHAPTERS",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/803.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/803-fix.html"
+    
+  },
+  {
+   
+    "name": "Vampire Survivors",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/804.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/804.html"
+    
+  },
+  {
+    
+    "name": "Plauge Inc",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/805.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/805.html"
+    
+  },
+  {
+   
+    "name": "Slendytubbies 2",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/806.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/806.html"
+    
+  },
+  {
+    
+    "name": "Slendytubbies 2D",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/807.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/807.html"  
+    
+  },
+  {
+    
+    "name": "Spaceflight Simulator",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/808.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/808.html" 
+    
+  },
+  {
+   
+    "name": "Rhythm Heaven",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/809.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/809.html" 
+    
+  },
+  {
+    
+    "name": "Need For Speed: Carbon",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/810.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/810.html"
+    
+  },
+  {
+    
+    "name": "Need For Speed: Most Wanted",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/811.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/811.html" 
+    
+  },
+  {
+   
+    "name": "Need For Speed: Underground 2",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/812.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/812.html"  
+    
   }
+
 ]
