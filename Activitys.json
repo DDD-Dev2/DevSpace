@@ -7242,40 +7242,7 @@
     "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/808.html" 
     
   },
-  {
-   "key": "htmlCode",
-    "name": "Rhythm Heaven",
-    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/809.png",
-    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/809.html" 
-    
-  },
-  {
-    "key": "htmlCode",
-    "name": "Need For Speed: Carbon",
-    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/810.png",
-    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/810.html"
-    
-  },
-  {
-    "key": "htmlCode",
-    "name": "Need For Speed: Most Wanted",
-    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/811.png",
-    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/811.html" 
-    
-  },
-  {
-   "key": "htmlCode",
-    "name": "Need For Speed: Underground 2",
-    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/812.png",
-    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/812.html"  
-  },
-  {
-    "key": "htmlCode",
-    "name": "Five Nights at Frickbear's 3",
-    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/813.png",
-    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/813-f.html"
-   
-  },
+
   {
   "key": "htmlCode",
   "isRecommended": "true",
@@ -7289,6 +7256,365 @@
   "name": "My Friend Pedro Arena",
   "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTteRvE_6DzKoYgEglm7YjQ1ZWV081i4A06tw&s",
   "url": "https://cdn.jsdelivr.net/gh/bubbls/ugs-singlefile/UGS-Files/clmyfriendpedroarena.html"  
-}
+},
+{
+       "name": "Rhythm Heaven",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/809.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/809.html"  
+
+
+
+
+
+
+  },
+  {
+
+    "name": "Need For Speed: Carbon",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/810.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/810-fix.html"  
+
+
+
+
+
+
+  },
+  {
+
+    "name": "Need For Speed: Most Wanted",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/811.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/811.html"  
+
+
+
+
+
+
+  },
+  {
+
+    "name": "Need For Speed: Underground 2",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/812.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/812.html"  
+
+
+
+
+
+
+  },
+  {
+
+    "name": "Five Nights at Frickbear's 3",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/813.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/813-f3.html"  
+
+
+
+
+
+  },
+  {
+
+    "name": "MiSide",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/814.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/814.html"  
+
+
+
+
+
+  },
+  {
+
+    "name": "Baldi's Basics The Ultra Decompile",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/815.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/815.html"  
+
+
+  },
+  {
+
+    "name": "-3",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/816.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/816.html"  
+
+
+
+
+
+  },
+  {
+
+    "name": "-b",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/817.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/817-f.html"  
+
+
+
+
+
+  },
+  {
+
+    "name": "t³ (T cubed)",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/818.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/818.html"  
+
+
+
+
+
+  },
+  {
+
+    "name": "20 Minutes Till Dawn",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/819.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/819-fix2.html"  
+
+
+
+
+
+  },
+  {
+
+    "name": "Phoenix Wright - Ace Attorney",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/820.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/820-fix.html"  
+
+
+
+
+
+
+  },
+  {
+
+    "name": "Apollo Justice - Ace Attorney",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/821.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/821-fix.html"  
+
+
+
+
+
+
+  },
+  {
+
+    "name": "Ace Attorney - Justice for All",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/822.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/822.html"  
+
+
+
+
+
+
+  },
+  {
+
+    "name": "Ace Attorney - Miles Edgeworth",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/823.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/823-fix.html"  
+
+
+
+
+
+
+  },
+  {
+
+    "name": "Phoenix Wright - Ace Attorney2",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/824.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/824.html"  
+
+
+
+
+
+
+  },
+  {
+
+    "name": "Cruelty Squad",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/825.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/825.html"  
+
+
+
+
+
+  },
+  {
+
+    "name": "Just Shapes & Beats",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/826.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/826-f.html"  
+
+
+
+
+
+
+  },
+  {
+
+    "name": "Totally Accurate Battle Simulator (TABS)",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/827.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/827-f.html"  
+
+
+
+
+
+
+  },
+  {
+
+    "name": "Animal Crossing (GAMECUBE)",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/828.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/828.html"  
+
+
+
+
+
+  },
+  {
+
+    "name": "Touhou 1 Touhou-Reiiden",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/829.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/829.html"  
+
+
+
+
+
+
+  },
+  {
+
+    "name": "Touhou 2 Touhou-Fuumaroku",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/830.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/830.html"  
+
+
+
+
+
+
+  },
+  {
+
+    "name": "Touhou 3 Touhou-Yumejikuu",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/831.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/831.html"  
+
+
+
+
+
+
+  },
+  {
+
+    "name": "Touhou 4 Touhou-Gensokyou",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/832.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/832.html"  
+
+
+
+
+
+
+  },
+  {
+
+    "name": "Touhou 5 Touhou-Kaikidan",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/833.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/833.html"  
+
+
+
+
+
+
+  },
+  {
+
+    "name": "I Wanna Be The Guy",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/834.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/834.html"  
+
+
+
+
+
+  },
+  {
+
+    "name": "YoHoHo.io",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/835.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/835.html"  
+
+
+  },
+  {
+
+    "name": "Friday Night Funkin vs Shucks v2",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/836.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/836.html"  
+
+
+
+
+
+  },
+  {
+
+    "name": "Into Space 2",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/837.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/837.html"  
+
+
+
+
+
+  },
+  {
+
+    "name": "Vena",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/838.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/838.html"  
+
+
+  },
+  {
+
+    "name": "s.p.l.i.t",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/839.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/839.html"  
+
+
+  },
+  {
+
+    "name": "My Talking Baby Hippo",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/840.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/840-fix2.html"  
+
+  },
+  {
+
+    "name": "WarioWare: Touched!",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/841.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/841.html"  
+
+  }
+
 
 ]
