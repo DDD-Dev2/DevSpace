@@ -1,5 +1,5 @@
 Welcome to Dev-Space :3 <br> <font color="Blue">ANOUNCEMENT:</font> <br>
-          welp, i know i said i wasnt going to update the site but here i am..
+          small fixes
           <br><br>Better loading times, more activitys, better information, recogmended activitys, and more!
           <br> thanks for sticking with the site, and dont be afraid to share it with others any time :D <br>
           <font color="lime">Ps- if you want things to load even faster upload this site to something like netlify to host it. </font>
