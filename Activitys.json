@@ -2,7 +2,7 @@
   
   { "key": "Info",
     
-    "name": " -! Request Game/ report problom/ join discord",
+    "name": " -! Request Gme/ report problom/ join discord",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa4W0-BI5CUx35ovhgfEqbeDo9obGXOMgEtg&s",
     "url": "https://discord.gg/"
     
@@ -871,7 +871,7 @@
   },
   { "key": "htmlCode",
     
-    "name": "The World's Hardest Game",
+    "name": "The World's Hardest Gme",
     "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/103.png",
     "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/103.html"
     
@@ -882,7 +882,7 @@
   },
   { "key": "htmlCode",
     
-    "name": "The World's Hardest Game 3",
+    "name": "The World's Hardest Gme 3",
     "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/104.png",
     "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/104.html"
     
@@ -893,7 +893,7 @@
   },
   { "key": "htmlCode",
     
-    "name": "The World's Hardest Game 4",
+    "name": "The World's Hardest Gme 4",
     "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/105.png",
     "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/105.html"
     
@@ -3898,7 +3898,7 @@
   },
   { "key": "htmlCode",
     
-    "name": "Lacey's Flash Games",
+    "name": "Lacey's Flash Gmes",
     "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/463.png",
     "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/463.html"
     
@@ -4786,7 +4786,7 @@
   },
   { "key": "htmlCode",
     
-    "name": "Count Masters: Stickman Games",
+    "name": "Count Masters: Stickman Gmes",
     "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/564.png",
     "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/564.html"
     
@@ -5802,7 +5802,7 @@
   },
   { "key": "htmlCode",
     
-    "name": "A Difficult Game About Climbing",
+    "name": "A Difficult Gme About Climbing",
     "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/672.png",
     "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/672-2.html"
     
@@ -6293,7 +6293,7 @@
   },
   { "key": "htmlCode",
     
-    "name": "Untitled Goose Game",
+    "name": "Untitled Goose Gme",
     "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/718.png",
     "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/718.html"
     
@@ -6305,7 +6305,7 @@
   },
   { "key": "htmlCode",
     
-    "name": "A Game About Feeding A Black Hole",
+    "name": "A Gme About Feeding A Black Hole",
     "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/719.png",
     "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/719.html"
     
@@ -6401,7 +6401,7 @@
   },
   { "key": "htmlCode",
     
-    "name": "game inside a game inside a game",
+    "name": "gme inside a gme inside a gme",
     "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/729.png",
     "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/729.html"
     
@@ -6764,7 +6764,7 @@
   },
   { "key": "htmlCode",
     
-    "name": "Suika Game",
+    "name": "Suika activityu",
     "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/766.png",
     "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/766.html"
     
@@ -6906,15 +6906,10 @@
             "url": "http://earnest-klepon-5466ed.netlify.app/undertale.html",
             "isRecommended": "true"
           },
-          {
-            "name": "Deltarune",
-            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuda-PqJDD5ism1eUALbQHWmx-8Wzs23mpfQ&s",
-            "url": "https://incredible-genie-7c7d8a.netlify.app/webports/deltarune/index.html",
-            "isRecommended": "true"
-          },
+
   {
     "key": "htmlCode",
-            "name": "Deltarune Chapt 5",
+            "name": "Deltarune",
             "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuda-PqJDD5ism1eUALbQHWmx-8Wzs23mpfQ&s",
             "url": "https://cdn.jsdelivr.net/gh/ByAlvaro19/deltarune@latest/index.html",
             "isRecommended": "true"
@@ -6971,7 +6966,7 @@
   "key": "htmlCode",
   
   "name": "Street Fighter 1 Arcade",
-  "img": "https://upload.wikimedia.org/wikipedia/en/6/6c/Street_Fighter_game_flyer.png",
+  "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE_NIBbWw-_8Ub64xtKZ3h3Fkq3dfI_8O_cg&s",
   "url": "https://cdn.jsdelivr.net/gh/bubbls/ugs-singlefile/UGS-Files/clStreetFighter1Arcade.html"  
 },
 {
@@ -7483,7 +7478,7 @@
   },
   {
 "key": "htmlCode",
-    "name": "Animal Crossing (GAMECUBE)",
+    "name": "Animal Crossing (GMECUBE)",
     "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/828.png",
     "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/828.html"  
 
@@ -7632,7 +7627,7 @@
   },
   {
 "key": "htmlCode",
-    "name": "La Madriguera (Lazy Bear Game)",
+    "name": "La Madriguera (Lazy Bear Gme)",
     "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/843.png",
     "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main//843.html"  
 
