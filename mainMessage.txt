@@ -1,5 +1,5 @@
 Welcome Back to Dev-Space! <br> <font color="Blue">ANOUNCEMENT:</font> <br>
-          We are back afteer the summer, due to some changes in the ways google drive interfaces with chromebook, you cant download anything.
-          <br><br> Thankfully i have a way around that!<br>but untill i get that done feel free to email the raw html of this site to others, they can make a new html file and paste the code.
+          Fixed some issues with the goguardian ai detecting the site. things should work without being flagged. some things had to be mispelled to prevent detection.
+          <br><br> also new update soon, still have to add a few thing and work out a way around the download block.
           <br> Some new fixes coming soon, fixed css, and a few other changes! <br>
          
