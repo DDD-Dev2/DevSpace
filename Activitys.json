@@ -74,7 +74,7 @@
   },
   { "key": "htmlCode",
     
-    "name": "Friday Night Funkin",
+    "name": "Friday Night Funki",
     "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/8.png",
     "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/8-wow.html"
     
@@ -7622,14 +7622,14 @@
 "key": "htmlCode",
     "name": "Plants vs. Zombies GOTY Edition",
     "cover": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/842.png",
-    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main//842.html"  
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/842.html"  
 
   },
   {
 "key": "htmlCode",
     "name": "La Madriguera (Lazy Bear Gme)",
     "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/843.png",
-    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main//843.html"  
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/843.html"  
 
 
   },
@@ -7637,16 +7637,143 @@
 "key": "htmlCode",
     "name": "Hammer 2 Reloaded",
     "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/844.png",
-    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main//844.html" 
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/844.html" 
 
   },
   {
 "key": "htmlCode",
     "name": "Swords and Sandals 2",
     "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/845.png",
-    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main//845.html"  
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/845.html"  
 
 
+  },
+
+    {
+    "key": "htmlCode",
+    "name": "One Shot: World Machine edition",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main//846.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/846.html"
+   
+   
+  },
+  {
+   "key": "htmlCode",
+    "name": "PEAK",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main//847.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/847.html"  
+   
+  },
+  {
+   "key": "htmlCode",
+    "name": "ClusterTruck",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main//848.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/848.html"  
+    
+  },
+  {
+    "key": "htmlCode",
+    "name": "Azahar (Emulator)",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main//849.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/849.html"  
+   
+  },
+  {
+    "key": "htmlCode",
+    "name": "Lobotomy Corporation",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main//850.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/850.html"  
+    
+  },
+  {
+    "key": "htmlCode",
+    "name": "Grand Theft Auto 3",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main//851.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/851.html"  
+   
+  },
+  {
+   "key": "htmlCode",
+    "name": "Granny 3",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main//852.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/852.html"  
+   
+  },
+  {
+    "key": "htmlCode",
+    "name": "SCP: Containment Breach",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main//853.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/853.html"  
+   
+  },
+  {
+    "key": "htmlCode",
+    "name": "Ravenfield",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main//854.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/854.html"  
+    
+  },
+  {
+    "key": "htmlCode",
+    "name": "Trombone Champion",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main//855.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/855.html"  
+    
+  },
+  {
+    "key": "htmlCode",
+    "name": "PikuNiku",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main//856.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/856.html"  
+    
+  },
+  {
+    "key": "htmlCode",
+    "name": "Inscryption",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main//857.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/857.html"
+  },
+  {
+   "key": "htmlCode",
+    "name": "60 Seconds! Reatomized",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main//858.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/858.html"
+  },
+  {
+"key": "htmlCode",
+    "name": "JoJo's Heritage for the Future",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main//859.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/859-f.html"
+  },
+  {
+    "key": "htmlCode",
+    "name": "Endacopia",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main//860.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/860.html"
+  },
+  {
+ "key": "htmlCode",
+    "name": "Friday Night Funki: VS. Mario Ultra Rebooted",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main//861.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/861.html"
+  },
+  {
+    "key": "htmlCode",
+    "name": "Friday Night Funki: VS. Henry Stickmin V4",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main//862.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/862.html"
+  },
+  {
+  "key": "htmlCode",
+    "name": "Friday Night Funki: VS. Super Mario Bros. Funk Mix DX",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main//863.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/863.html"
+  },
+  {
+   "key": "htmlCode",
+    "name": "Friday Night Funki: VS. Seek's Cool Deltarune",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main//864.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/864.html"
   }
 
 
