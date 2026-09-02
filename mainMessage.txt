@@ -1,5 +1,5 @@
 Welcome Back to Dev-Space! <br> <font color="Blue">ANOUNCEMENT:</font> <br>
-          Fixed some issues with the goguardian ai detecting the site. things should work without being flagged. some things had to be mispelled to prevent detection.
-          <br><br> also new update soon, still have to add a few thing and work out a way around the download block.
-          <br> Some new fixes coming soon, fixed css, and a few other changes! <br>
+          Soooo, the district decided to block jsdelivr (a hosting eviroment used to make most websites function) i managed to get around it but many sites wont run anymore. (pearson, wayground, ect). 
+          <br><br> in other news I fixed some css issues and added a few exta activitys.
+          <br> Please continue to share the site to others! <br>
          
