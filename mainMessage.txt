@@ -1,5 +1,5 @@
 Welcome Back to Dev-Space! <br> <font color="Blue">ANOUNCEMENT:</font> <br>
-          Soooo, the district decided to block jsdelivr (a hosting eviroment used to make most websites function) i managed to get around it but many sites wont run anymore. (pearson, wayground, ect). 
-          <br><br> in other news I fixed some css issues and added a few exta activitys.
+          just fixed like everything on the site. so if something didnt work, try it now :D
+          <br><br> also jsdelivr is still dead so expect site to be slightly slower
           <br> Please continue to share the site to others! <br>
          
