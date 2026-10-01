@@ -7087,7 +7087,7 @@
   { 
     "key": "htmlCode",  
     "isRecommended": "true",
-    "name": "Geometry Dash",
+    "name": "Web Dash",
     "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main/785.png",
     "url": "https://fastly.jsdelivr.net/gh/freebuisness/html@main/785-upd3.html"
   },
@@ -7192,7 +7192,7 @@
     "key": "htmlCode",
     "name": "Trees Hate You",
     "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main/801.png",
-    "url": "https://fastly.jsdelivr.net/gh/freebuisness/html@main/801-fix.html"
+    "url": "https://fastly.jsdelivr.net/gh/freebuisness/html@main/801-fix2.html"
    
   },
   {
@@ -7652,7 +7652,7 @@
     {
     "key": "htmlCode",
     "name": "One Shot: World Machine edition",
-    "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main//846.png",
+    "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main/846.png",
     "url": "https://fastly.jsdelivr.net/gh/freebuisness/html@main/846.html"
    
    
@@ -7660,120 +7660,148 @@
   {
    "key": "htmlCode",
     "name": "PEAK",
-    "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main//847.png",
+    "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main/847.png",
     "url": "https://fastly.jsdelivr.net/gh/freebuisness/html@main/847.html"  
    
   },
   {
    "key": "htmlCode",
     "name": "ClusterTruck",
-    "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main//848.png",
+    "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main/848.png",
     "url": "https://fastly.jsdelivr.net/gh/freebuisness/html@main/848.html"  
     
   },
   {
     "key": "htmlCode",
     "name": "Azahar (Emulator)",
-    "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main//849.png",
+    "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main/849.png",
     "url": "https://fastly.jsdelivr.net/gh/freebuisness/html@main/849.html"  
    
   },
   {
     "key": "htmlCode",
     "name": "Lobotomy Corporation",
-    "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main//850.png",
+    "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main/850.png",
     "url": "https://fastly.jsdelivr.net/gh/freebuisness/html@main/850.html"  
     
   },
   {
     "key": "htmlCode",
     "name": "Grand Theft Auto 3",
-    "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main//851.png",
+    "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main/851.png",
     "url": "https://fastly.jsdelivr.net/gh/freebuisness/html@main/851.html"  
    
   },
   {
    "key": "htmlCode",
     "name": "Granny 3",
-    "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main//852.png",
+    "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main/852.png",
     "url": "https://fastly.jsdelivr.net/gh/freebuisness/html@main/852.html"  
    
   },
   {
     "key": "htmlCode",
     "name": "SCP: Containment Breach",
-    "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main//853.png",
+    "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main/853.png",
     "url": "https://fastly.jsdelivr.net/gh/freebuisness/html@main/853.html"  
    
   },
   {
     "key": "htmlCode",
     "name": "Ravenfield",
-    "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main//854.png",
+    "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main/854.png",
     "url": "https://fastly.jsdelivr.net/gh/freebuisness/html@main/854.html"  
     
   },
   {
     "key": "htmlCode",
     "name": "Trombone Champion",
-    "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main//855.png",
+    "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main/855.png",
     "url": "https://fastly.jsdelivr.net/gh/freebuisness/html@main/855.html"  
     
   },
   {
     "key": "htmlCode",
     "name": "PikuNiku",
-    "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main//856.png",
+    "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main/856.png",
     "url": "https://fastly.jsdelivr.net/gh/freebuisness/html@main/856.html"  
     
   },
   {
     "key": "htmlCode",
     "name": "Inscryption",
-    "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main//857.png",
+    "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main/857.png",
     "url": "https://fastly.jsdelivr.net/gh/freebuisness/html@main/857.html"
   },
   {
    "key": "htmlCode",
     "name": "60 Seconds! Reatomized",
-    "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main//858.png",
+    "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main/858.png",
     "url": "https://fastly.jsdelivr.net/gh/freebuisness/html@main/858.html"
   },
   {
 "key": "htmlCode",
     "name": "JoJo's Heritage for the Future",
-    "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main//859.png",
+    "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main/859.png",
     "url": "https://fastly.jsdelivr.net/gh/freebuisness/html@main/859-f.html"
   },
   {
     "key": "htmlCode",
     "name": "Endacopia",
-    "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main//860.png",
+    "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main/860.png",
     "url": "https://fastly.jsdelivr.net/gh/freebuisness/html@main/860.html"
   },
   {
  "key": "htmlCode",
     "name": "Friday Night Funki: VS. Mario Ultra Rebooted",
-    "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main//861.png",
+    "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main/861.png",
     "url": "https://fastly.jsdelivr.net/gh/freebuisness/html@main/861.html"
   },
   {
     "key": "htmlCode",
     "name": "Friday Night Funki: VS. Henry Stickmin V4",
-    "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main//862.png",
+    "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main/862.png",
     "url": "https://fastly.jsdelivr.net/gh/freebuisness/html@main/862.html"
   },
   {
   "key": "htmlCode",
     "name": "Friday Night Funki: VS. Super Mario Bros. Funk Mix DX",
-    "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main//863.png",
+    "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main/863.png",
     "url": "https://fastly.jsdelivr.net/gh/freebuisness/html@main/863.html"
   },
   {
    "key": "htmlCode",
     "name": "Friday Night Funki: VS. Seek's Cool Deltarune",
-    "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main//864.png",
+    "img": "https://fastly.jsdelivr.net/gh/freebuisness/covers@main/864.png",
     "url": "https://fastly.jsdelivr.net/gh/freebuisness/html@main/864.html"
+  },
+    {
+
+    "name": "Lethal Company",
+    "cover": "https://fastly.jsdelivr.net/gh/freebuisness/cover/865.png",
+    "url": "https://fastly.jsdelivr.net/gh/freebuisness/html@main/865.html" 
+
+  },
+  {
+
+    "name": "Team Fortress 2",
+    "cover": "https://fastly.jsdelivr.net/gh/freebuisness/cover/866.png",
+    "url": "https://fastly.jsdelivr.net/gh/freebuisness/html@main/866.html"  
+
+  },
+  {
+
+    "name": "Gang Beasts",
+    "cover": "https://fastly.jsdelivr.net/gh/freebuisness/covers/867.png",
+    "url": "https://fastly.jsdelivr.net/gh/freebuisness/html@main/867.html"  
+
+  },
+  {
+
+    "name": "Geometry Dash",
+    "cover": "https://fastly.jsdelivr.net/gh/freebuisness/covers/868.png",
+    "url": "https://fastly.jsdelivr.net/gh/freebuisness/html@main/868.html" 
+
   }
 
 
