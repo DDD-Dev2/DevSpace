@@ -7780,28 +7780,28 @@
     "name": "Lethal Company",
     "cover": "https://fastly.jsdelivr.net/gh/freebuisness/cover/865.png",
     "url": "https://fastly.jsdelivr.net/gh/freebuisness/html@main/865.html" 
-
+"key": "htmlCode",
   },
   {
 
     "name": "Team Fortress 2",
     "cover": "https://fastly.jsdelivr.net/gh/freebuisness/cover/866.png",
     "url": "https://fastly.jsdelivr.net/gh/freebuisness/html@main/866.html"  
-
+"key": "htmlCode",
   },
   {
 
     "name": "Gang Beasts",
     "cover": "https://fastly.jsdelivr.net/gh/freebuisness/covers/867.png",
     "url": "https://fastly.jsdelivr.net/gh/freebuisness/html@main/867.html"  
-
+"key": "htmlCode",
   },
   {
 
     "name": "Geometry Dash",
     "cover": "https://fastly.jsdelivr.net/gh/freebuisness/covers/868.png",
     "url": "https://fastly.jsdelivr.net/gh/freebuisness/html@main/868.html" 
-
+"key": "htmlCode",
   }
 
 
