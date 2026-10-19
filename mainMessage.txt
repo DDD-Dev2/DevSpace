@@ -1,5 +1,3 @@
 Welcome Back to Dev-Space! <br> <font color="Blue">ANOUNCEMENT:</font> <br>
-          just fixed like everything on the site. so if something didnt work, try it now :D
-          <br><br> also jsdelivr is still dead so expect site to be slightly slower
-          <br> Please continue to share the site to others! <br>
+          Everything is fixed, this took me forever. That's it, nothing new <br><br> More soon...
          
