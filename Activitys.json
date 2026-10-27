@@ -5102,5 +5102,70 @@
           "isRecommended": "true",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuda-PqJDD5ism1eUALbQHWmx-8Wzs23mpfQ&s",
     "url": "https://cdn.jsdelivr.net/gh/ByAlvaro19/deltarune@latest/index.html"
+  },
+  {
+"key": "htmlCode",
+    "name": "Five Nights at Freddy's: Into The Pit",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/869.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/869.html"
+
+  },
+  {
+"key": "htmlCode",
+    "name": "Sally Face",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/870.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/870.html"
+
+  },
+  {
+"key": "htmlCode",
+    "name": "Gamble With Friends",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/871.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/871.html"
+
+  },
+  {
+"key": "htmlCode",
+    "name": "The One Fish",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/872.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/872.html"
+
+  },
+  {
+"key": "htmlCode",
+    "name": "Chain-Chillas",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/873.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/873.html"
+
+  },
+  {
+"key": "htmlCode",
+    "name": "Wolfenstein 3D",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/874.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/874.html"
+
+  },
+  {
+"key": "htmlCode",
+    "name": "ROAM0120.EXE",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/875.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/875.html"
+
+  },
+  {
+"key": "htmlCode",
+    "name": "Sugary Spire Exhibition Night: Pizzano's Awesome Night Mod",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/876.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/876.html"
+
+  },
+  {
+"key": "htmlCode",
+    "name": "Pet The Cat",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/877.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/877.html"
+
   }
+
+
 ]
