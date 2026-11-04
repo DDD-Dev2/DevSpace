@@ -1,17 +1,16 @@
 
 <!--
 
-    https://fastly.jsdelivr.net/gh/DDD-Dev2/DevSpace@main/HtmlVersion.txt
-    https://fastly.jsdelivr.net/gh/DDD-Dev2/DevSpace@main/Activitys.json
-    https://fastly.jsdelivr.net/gh/DDD-Dev2/DevSpace@main/popoutText.txt
-    https://fastly.jsdelivr.net/gh/DDD-Dev2/DevSpace@main/mainMessage.txt
-    https://fastly.jsdelivr.net/gh/DDD-Dev2/DevSpace@main/NewestVersion.html
+    https://cdn.jsdelivr.net/gh/DDD-Dev2/DevSpace@main/HtmlVersion.txt
+    https://cdn.jsdelivr.net/gh/DDD-Dev2/DevSpace@main/Activitys.json
+    https://cdn.jsdelivr.net/gh/DDD-Dev2/DevSpace@main/popoutText.txt
+    https://cdn.jsdelivr.net/gh/DDD-Dev2/DevSpace@main/mainMessage.txt
+    https://cdn.jsdelivr.net/gh/DDD-Dev2/DevSpace@main/NewestVersion.html
 
 -->
 
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -20,8 +19,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-    <!--css, cant comment in there because idk how :D-->
+    <script src="https://cdn.jsdelivr.net/npm/eruda"></script>
     <style>
       @import url("https://fonts.googleapis.com/css?family=Bowlby+One+SC");
 
@@ -810,6 +808,19 @@
         font-size: 40px;
         border: inset, rgb(150, 150, 150);
       }
+      .input-Dev {
+  color: white;
+  border: 2px solid #8707ff;
+  border-radius: 10px;
+  padding: 10px 25px;
+  background: transparent;
+  max-width: 190px;
+}
+
+.input-Dev:active {
+  box-shadow: 2px 2px 15px #8707ff inset;
+}
+
 
       .devMenuScrollCont {
         position: absolute;
@@ -855,114 +866,24 @@
       }
     </style>
   </head>
-
   <body>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/eruda/3.4.3/eruda.js"></script>
     <a style="position: absolute; left:-9999px;" id="downloadLink" href="about:blank" download="Dev-SpaceSingleFile.html">a</a>
-    <script>
-      async function loadExternalAssets(baseUrl) {
-        //const baseUrl = 'https://fastly.jsdelivr.net/gh/DDD-Dev2/DevSpace@main/';
-        const timestamp = `?t=${Date.now()}`;
-        //set dubug menu url
-        block = document.getElementById("debugUrlCodeBlock");
-        block.innerHTML = baseUrl;
-        //console.log(baseUrl);
-        const files = [{
-            id: 'version',
-            url: `https://fastly.jsdelivr.net/gh/DDD-Dev2/DevSpace@main/HtmlVersion.txt${timestamp}`
-          },
-          {
-            id: 'popout',
-            url: `${baseUrl}popoutText.txt${timestamp}`
-          },
-          {
-            id: 'mainMsg',
-            url: `${baseUrl}mainMessage.txt${timestamp}`
-          }
-        ];
-        try {
-          const results = await Promise.all(files.map(file =>
-            fetch(file.url).then(res => res.text())
-           //fetch('https://example.com', {method: 'GET',headers: {'Accept': 'text/html'}}).then(res => res.text())
-          ));
-          const [versionData, popoutData, mainMsgData] = results.map(t => t.trim());
-          window.HtmlVersion = "5";
-          window.NewestHtmlVers = versionData;
-          const infoText = document.getElementById("mainInfoText");
-          if (infoText) {
-            infoText.innerHTML = `
-                        Info: <br><br> 
-                        Press Shift + \\ to open panic mode. <br> 
-                        Current Version: ${window.HtmlVersion} | Newest: ${window.NewestHtmlVers}<br><br>
-                        This site is not affiliated with any activities included...
-                    `;
-          }
-          if (versionData !== window.HtmlVersion) {
-            if (confirm("New version available! Download now?")) {
-              const updateRes = await fetch(`${baseUrl}NewestVersion.html${timestamp}`);
-              const blob = new Blob([await updateRes.text()], {
-                type: "text/html"
-              });
-              const link = document.getElementById("downloadLink");
-              link.href = URL.createObjectURL(blob);
-              link.click();
-            }
-          }
-          const popText = document.getElementById("popText");
-          if (popText) popText.textContent = popoutData;
-          const mainText = document.getElementById("mainText");
-          if (mainText) mainText.innerHTML = mainMsgData;
-        } catch (error) {
-          console.error("Asset Load Failure:", error);
-          document.getElementById("mainText").innerHTML = "Error loading latest updates.";
-          document.getElementById("popText").innerHTML = "Error";
-        }
-      }
-      // Call it immediately when the script runs or inside DOMContentLoaded
-      document.addEventListener("DOMContentLoaded", () => loadExternalAssets('https://fastly.jsdelivr.net/gh/DDD-Dev2/DevSpace@main/'));
-    </script>
-    <!--Enter panic mode when the user presses the | key, this just fullscreens an iframe with desmos because i dont wana close the tab-->
-    <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        const panicframe = document.getElementById("panicFrame");
-        addEventListener("keydown", (event) => {
-          if (event.key === '|') {
-            //panicframe.src = "https://www.desmos.com/calculator";
-            if (panicframe.requestFullscreen) {
-              panicframe.requestFullscreen();
-            }
-          }
-        });
-      });
-    </script>
-    <iframe class="panicFrame" id="panicFrame" style="left:-9999px" src="https://www.desmos.com/calculator"></iframe>
+    <iframe class="panicFrame" id="panicFrame" style="left:-9999px" src="about:blank"></iframe>
     <!--the top bar container because css-->
     <div class="topBar">
-
       <div class="funniTopBarCoolThing" id="funniTopBarCoolThing">
-
         <div id="activityCount" class="activityCount">
-          <div id="ActNumTxt">999</div>
+          <div id="ActNumTxt">ERR</div>
           <div style="font-size:15px; position:absolute; top:35px;">Activitys</div>
         </div>
-
         <!--search, its not hard to figgure that out-->
-        <input class="SearchFeild" id="SearchFeild" placeholder="Search..." style="left: -99909px"> help
-        </input>
-
-        <button class="BackButton" id="backButtonw" style="left: -99099px">
-          &lt;- Back
-        </button>
-        <button class="BackButton" id="backButtonI" style="left: -99099px">
-          &lt;- Back
-        </button>
-        <!--back button for the activity main user. i hate not being able to say certin words, flip x3 ai, i want to cuss in my html without being smited-->
-        <button class="BackButton" id="backButton" style="z-index: 10; left: -99909px">
-          &lt;- Back
-        </button>
+        <input class="SearchFeild" id="SearchFeild" placeholder="Search..." style="left: -99909px"> help</input>
+        
+        <button class="BackButton" id="backButtonw" style="left: -99099px">&lt;- Back</button>
+        <button class="BackButton" id="backButtonI" style="left: -99099px">&lt;- Back</button>
+        <button class="BackButton" id="backButton" style="z-index: 10; left: -99909px">&lt;- Back</button>
+        
         <div class="popoutContainer" id="popoutContainer">
-
-          <!--cool title opening because cool ig-->
           <span class="text2" id="popText"></span>
         </div>
         <div class="titleContainer" id="titleContainer">
@@ -988,7 +909,7 @@
               <span><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path d="M0 0h24v24H0z" fill="none"></path>
                   <path d="M24 12l-5.657 5.657-1.414-1.414L21.172 12l-4.243-4.243 1.414-1.414L24 12zM2.828 12l4.243 4.243-1.414 1.414L0 12l5.657-5.657L7.07 7.757 2.828 12zm6.96 9H7.66l6.552-18h2.128L9.788 21z" fill="currentColor"></path>
-                </svg>=3
+                </svg>
               </span>
             </button>
           </div>
@@ -1006,33 +927,34 @@
             <code id="debugUrlCodeBlock" style="font-size:10px; margin:2px;">a</code>
           </div>
           <div class="devMenuButton">
+            <div style="font-size:10px;">Open Custom url</div>
             <label class="switch">
-              <input type="checkbox">
+              <input type="checkbox" id="htmlUrlSwitch">
               <span class="slider"></span>
             </label>
+            Html/url
+            <input
+  placeholder="Type something here...."
+  class="input-Dev"
+  name="text"
+  type="text"
+  id="customActInput"
+/>
           </div>
         </div>
       </div>
     </div>
     <div class="glowyTextBox">
       <div class="btnContainer">
-        <!--hehe funny button-->
         <div class="btn">
           <a id="Activitys">All Activitys</a>
         </div>
-        <!--hehe funny button 2-->
         <div class="btn2">
           <a id="Recommended">Recommended</a>
         </div>
       </div>
-
       <div class="mainTextContainer">
-
-        <!--actual html for main text-->
-        <div class="mainText" id="mainText">
-
-        </div>
-
+        <div class="mainText" id="mainText">Trying to load...</div>
       </div>
       <div class="mainInfoButton" id="mainInfoButton"><i class="fa-solid fa-info"></i></div>
     </div>
@@ -1041,18 +963,17 @@
       <br>
       <br> press Shift + \ to open panic mode.
       <br> the current HTML version is
-
     </div>
-    <!--hold the buttons, its not very complicated-->
+    <!---------------------------------For activity buttons----------------------------------------->
     <h1 class="ScrollContainer" id="Webports">
       <div id="button-container" class="button-container"></div>
     </h1>
+    <!---------------------------------Container for loaded activity-------------------------------->
     <div class="FSBContainer" id="FSBI">
       <div class="loadingText">Loading please wait...</div>
       <div class="loader"></div>
       <!--ifram that holds main content, uses sandbox because some idiot made the activitys have ads in their html >:(-->
       <iframe id="fr" class="mainIframe" src="about:blank" sandbox="allow-scripts allow-same-origin"></iframe>
-      <!--cool fullscreen button, much better then the trashy one i used to use-->
       <div class="fullscreenButton">
         <a id="FullScreenBtn"><i class="fa-solid fa-expand"></i></a>
       </div>
@@ -1065,10 +986,12 @@
         <a id="infoButton"><i class="fa-solid fa-info"></i></a>
       </div>
     </div>
-    <script>
-      //wait till load because my pc is slow and cant handle the animations when loading.  
+    <script type="module">
+
       document.addEventListener("DOMContentLoaded", async () => {
-        //vars, vars, vars galore.
+
+
+        //----------------------------All variables that arnt in funcs---------------------
         const container = document.getElementById("button-container");
         const iframe = document.getElementById("fr");
         const fsbContainer = document.getElementById("FSBI");
@@ -1077,7 +1000,6 @@
         const backButtonw = document.getElementById("backButtonw");
         const backButtonI = document.getElementById("backButtonI");
         const Webports = document.getElementById("Webports");
-        const iframeURL = "about:blank";
         const TC = document.getElementById("funniTopBarCoolThing");
         const PC = document.getElementById("popoutContainer");
         const Title = document.getElementById("Title");
@@ -1093,323 +1015,20 @@
         const DevCloseBtn = document.getElementById("DevCloseBtn");
         const BetaActSwitch = document.getElementById('BetaActSwitch');
         const VersionSwitch = document.getElementById('VersionSwitch');
-        // these are hear because im stupid and cant see without them being seporate
-        window.currentContentURL = "";
-        window.currentContentOfFrame = "";
-        window.isHtmlCode = false;
-        window.RecommendedEnabled = false;
-        //more vars because why not
+        const htmlUrlSwitch = document.getElementById('htmlUrlSwitch');
+        const customActInput = document.getElementById('customActInput');
         const Activitys = document.getElementById("Activitys");
         const Recommended = document.getElementById("Recommended");
-        var allowedKeys = {
-          37: 'left',
-          38: 'up',
-          39: 'right',
-          40: 'down',
-        };
-        var konamiCode = ['up', 'up', 'down', 'down', 'left', 'right', 'left', 'right'];
-        var konamiCodePosition = 0;
-        document.addEventListener('keydown', function(e) {
-          var key = allowedKeys[e.keyCode];
-          var requiredKey = konamiCode[konamiCodePosition];
-          if (key == requiredKey) {
-            konamiCodePosition++;
-            if (konamiCodePosition == konamiCode.length) {
-              activateCheats();
-              konamiCodePosition = 0;
-            }
-          } else {
-            konamiCodePosition = 0;
-          }
-        });
+        const panicframe = document.getElementById("panicFrame");
+        const infoText = document.getElementById("mainInfoText");
+        const updateLink = document.getElementById("downloadLink");
+        const timestamp = `?t=${Date.now()}`;
+        const popText = document.getElementById("popText");
+        const mainText = document.getElementById("mainText");
 
-        function activateCheats() {
-          DevMenu.style.display = "flex";
-        }
-        BetaActSwitch.addEventListener('change', () => {
-          if (BetaActSwitch.checked) {
-            loadActivities("https://bitbucket.org/ddd_dev-workspace/dev-space/raw/main/Activitys.json");
-            loadExternalAssets('https://bitbucket.org/ddd_dev-workspace/dev-space/raw/main/');
-          } else {
-            loadExternalAssets('https://fastly.jsdelivr.net/gh/DDD-Dev2/DevSpace@main/');
-            loadActivities("https://fastly.jsdelivr.net/gh/DDD-Dev2/DevSpace@main/Activitys.json");
-          }
-        });
-        VersionSwitch.addEventListener('change', () => {
-          if (VersionSwitch.checked) {
-            consle.log("switched");
-            window.HtmlVersion = "-1";
-          } else {
-            consle.log("switched");
-            window.HtmlVersion = NewestHtmlVers;
-          }
-        });
-        SearchFeild.addEventListener("input", function(event) {
-          //for the things in contents, find all that have an id matching the users search, if not kill the item >:3
-          for (var i = Contents.length - 1; i >= 0; i--) {
-            //had to do some mind hur stuff so user search works for stupid people
-            const tempId = Contents[i].name.toLowerCase().replace(/ /g, "");
-            const temp = document.getElementById(tempId);
-            if (temp) {
-              if (!Contents[i].name.toLowerCase().includes(SearchFeild.value.toLowerCase())) {
-                temp.style.display = "none";
-              } else {
-                if (RecommendedEnabled == true) {
-                  if (Contents[i].isRecommended == "true") {
-                    temp.style.display = "";
-                    //console.log("item allowed");
-                  } else {
-                    temp.style.display = "none";
-                    //console.log("item Blocked");
-                  }
-                } else {
-                  temp.style.display = "";
-                }
-              }
-            }
-          }
-        });
-        // Recommended.addEventListener("click", () => {
-        //for the things in contents, find all that have an id matching the users search, if not kill the item >:3
-        DevCloseBtn.addEventListener("click", () => {
-          //opens main activitys tab, just styling.
-          DevMenu.style.display = "none";
-        });
-        let isErudaInit = false;
-        erudaEnableBtn.addEventListener("click", () => {
-          if (typeof eruda === 'undefined') {
-            alert("Eruda failed to load from the CDN.");
-            return;
-          }
-          if (!isErudaInit) {
-            eruda.init();
-            isErudaInit = true;
-          } else {
-            // If it's already initialized, just make sure the panel is visible
-            d
-          }
-        });
-        mainInfoButton.addEventListener("click", () => {
-          //opens main activitys tab, just styling.
-          mainInfoText.style.left = "auto";
-          backButtonI.style.left = "1000px";
-        });
-        Activitys.addEventListener("click", () => {
-          //opens main activitys tab, just styling.
-          ActNumTxt.innerHTML = "" + Contents.length;
-          Webports.style.display = "block";
-          TC.style.height = "80px";
-          PC.style.top = "-999px";
-          Title.style.backgroundcolor = "#000f";
-          titleContainer.style.height = "5px";
-          backButtonw.style.left = "720px";
-          SearchFeild.style.left = "15px";
-          activityCount.style.display = "flex";
-        });
-        Recommended.addEventListener("click", () => {
-          //yeah so idk if im even going to add this tab lmao, maybe ill add movies or smth because emulated things are alr in the Activitys tab.
-          Webports.style.display = "block";
-          titleContainer.style.height = "5px";
-          TC.style.height = "80px";
-          PC.style.top = "-999px";
-          Title.style.backgroundcolor = "#000f";
-          backButtonw.style.left = "720px";
-          SearchFeild.style.left = "15px";
-          RecommendedEnabled = true;
-          activityCount.style.display = "flex";
-          var temp2 = 0;
-          for (var i = Contents.length - 1; i >= 0; i--) {
-            //had to do some mind hur stuff so user search works for stupid people
-            const tempId = Contents[i].name.toLowerCase().replace(/ /g, "");
-            const temp = document.getElementById(tempId);
-            if (Contents[i].isRecommended == "true") {
-              temp.style.display = "";
-              temp2++;
-              ActNumTxt.innerHTML = "" + temp2;
-              //console.log("item allowed");
-            } else {
-              temp.style.display = "none";
-              //console.log("item Blocked");
-            }
-          }
-        });
-        backButton.addEventListener("click", () => {
-          //back button for main activitys tab, styling and reseting the current activity. so you can actualy switch.
-          fsbContainer.style.left = "-20000px";
-          backButton.style.left = "-1000px";
-          iframe.removeAttribute("srcdoc");
-          iframe.src = "about:blank";
-          window.currentContentURL = "";
-          iframe.contentDocument = "";
-          backButtonw.style.left = "720px";
-        });
-        backButtonI.addEventListener("click", () => {
-          //back button for main Info tab
-          mainInfoText.style.left = "-20000px";
-          backButtonI.style.left = "-1000px";
-        });
-        backButtonw.addEventListener("click", () => {
-          //back button for activitys tab, just styling tbh
-          Webports.style.display = "none";
-          TC.style.height = "150px";
-          titleContainer.style.height = "70px";
-          PC.style.top = "70px";
-          Title.style.backgroundcolor = "#000";
-          backButtonw.style.left = "-9999px";
-          SearchFeild.style.left = "-99999px";
-          activityCount.style.display = "none";
-          RecommendedEnabled = false;
-          for (var i = Contents.length - 1; i >= 0; i--) {
-            //had to do some mind hur stuff so user search works for stupid people
-            const tempId = Contents[i].name.toLowerCase().replace(/ /g, "");
-            const temp = document.getElementById(tempId);
-            //this is rly dumb, but im too lazy to write it 
-            if (Contents[i].isRecommended == "true") {
-              temp.style.display = "";
-              //console.log("item allowed");
-            } else {
-              temp.style.display = "";
-              //console.log("item Blocked");
-            }
-          }
-        });
-        FullScreenBtn.addEventListener("click", () => {
-          //tell iframe that the user demands its contents in fullscreen.
-          if (iframe.requestFullscreen) {
-            iframe.requestFullscreen();
-          }
-        });
-        infoButton.addEventListener("click", () => {
-          //idk i think people will be stupid so heres and info button ig.
-          alert(
-            "Some Activitys can take a while to load. If the Activity doesnt load within 5 mins, put in an add Activity request and add a note asking to fix it."
-          );
-        });
-        window.addEventListener("beforeunload", function(event) {
-          event.preventDefault();
-          event.returnValue = "";
-        });
-        //detects click on open in new tab button and does some funny brain hurt stuff.
-        newTabButton.addEventListener("click", () => {
-          //open the window
-          var newTab = window.open("", "_blank");
-          if (newTab) {
-            if (window.isHtmlCode) {
-              // write into the newly opened window
-              newTab.document.open();
-              newTab.document.write(`
-                    <!DOCTYPE html>
-                    <html lang="en">
-                    <head>
-                      <meta charset="UTF-8">
-                      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                      <title>NewTabActivity<\/title>
-                      <script>
-                        window.addEventListener("beforeunload", function (event) {
-                          event.preventDefault();
-                          event.returnValue = "";
-                        });
-                      <\/script>
-                      <style>
-                        body, html { margin: 0; padding: 0; width: 100%; height: 100%; background: #000; overflow: hidden; }
-                        iframe { width: 100%; height: 100%; border: none; }
-                      <\/style>
-                    <\/head>
-                    <body>
-                      <iframe id="newTabIframe" sandbox="allow-scripts allow-same-origin"><\/iframe>
-                    <\/body>
-                    <\/html>
-                  `);
-              newTab.document.close();
-              //idk why i need this but i do aparently
-              //grabs iframe from within new tab and assigns it to a var
-              const newIframe = newTab.document.getElementById("newTabIframe");
-              const newIframeDoc = newIframe.contentDocument || newIframe.contentWindow.document;
-              //put html content of the Activity into the sandboxed iframe.
-              newIframeDoc.open();
-              newIframeDoc.write(window.currentContentOfFrame);
-              newIframeDoc.close();
-            } else {
-              //if the Activity type isnt html do the simple apply url to iframe bs.
-              newTab.document.write(`
-                <!DOCTYPE html>
-              <html lang="en">
-              <head>
-                <meta charset="UTF-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>E</title>
-                <script>
-                  window.addEventListener("beforeunload", function (event) {
-                    event.preventDefault();
-                    event.returnValue = "";
-                  });
-                <\/script>
-                <style>
-                  body, html { margin: 0; padding: 0; width: 100%; height: 100%; background: #000; overflow: hidden; }
-                  iframe { width: 100%; height: 100%; border: none; }
-                </style>
-              <\/head>
-              <body>
-                <iframe src="${window.currentContentURL}"></iframe>
-              <\/body>
-              <\/html>
-            `);
-            }
-          } else {
-            //because people are stupid
-            alert("Popup blocked! Please allow popups for this site.");
-          }
-        });
-        //list... for activitys.
-        let Contents = [];
-        //fetches activitys from json hosted on dif site so actual site can run on single file.
-        loadActivities("https://fastly.jsdelivr.net/gh/DDD-Dev2/DevSpace@main/Activitys.json");
-        async function loadActivities(jsonUrl) {
-          // 1. Clear the old buttons and reset the array
-          container.innerHTML = "";
-          Contents = [];
-          try {
-            const response1 = await fetch(
-              jsonUrl + "?t=" + Date.now()
-              //https://fastly.jsdelivr.net/gh/DDD-Dev2/DevSpace@main/Activitys.json?t=
-              //https://bitbucket.org/ddd_dev-workspace/dev-space/raw/main/Activitys.json?t=
-            );
-            Contents = await response1.json();
-          } catch (error) {
-            console.error(error);
-          }
-          //sorts in abc order
-          Contents.sort((a, b) => a.name.localeCompare(b.name));
-          //ActNumTxt.innerHTML = "" + Contents.length;
-          //loops though activitys and make a button for each one
-          Contents.forEach((Content) => {
-            const ButtonName = `${Content.name}`;
-            const group = document.createElement("div");
-            group.className = "button-group";
-            group.id = ButtonName.toLowerCase().replace(/ /g, "");;
-            const button = document.createElement("button");
-            button.className = "my-button";
-            button.style.background = `url(${Content.img}) no-repeat center center`;
-            button.style.backgroundSize = "cover";
-            //main click detect for the activity buttons
-            button.addEventListener("click", async () => {
-              fsbContainer.style.left = "auto";
-              backButton.style.left = "720px";
-              backButtonw.style.left = "-99720px";
-              //check if the activity uses raw html
-              if (Content.key == "htmlCode") {
-                let htmlContent = "";
-                try {
-                  const response2 = await fetch(
-                    Content.url
-                  );
-                  htmlContent = await response2.text();
-                } catch (error) {
-                  console.error(error);
-                }
-                //let iframeDoc = iframe.contentDocument;
-                //to try and block the sidebar adds the activitys include. because they suck.
-                const adBlockInjection = `
+        
+
+        const adBlockInjection = `
     <style>
         /* Uses ^ (starts with) and exact matches to avoid hitting 'loading' */
         [id^="ad-"], [id^="ad_"], [class^="ad-"], [class^="ad_"], .ad, #ad, #sidebarad1, #sidebarad2 { 
@@ -1422,29 +1041,78 @@
         window.open = function() { console.log("Ad popup blocked!"); return null; };
     <\/script>
     `;
-                //import ad block into html
-                htmlContent = htmlContent.replace('<head>', '<head>' + adBlockInjection);
-                  htmlContent = htmlContent.replace('cdn.jsdelivr', 'fastly.jsdelivr');
-                  console.log(htmlContent);
-                //sets so new tab button knows html code status
+        // these are hear because im stupid and cant see without them being seporate
+        window.currentContentURL = "";
+        window.currentContentOfFrame = "";
+        window.isHtmlCode = false;
+        window.RecommendedEnabled = false;
+        window.debugVersionSwitch = 0;
+        //more lets because why not
+
+        let allowedKeys = {37: 'left', 38: 'up', 39: 'right', 40: 'down',};
+        let konamiCode = ['up', 'up', 'down', 'down', 'left', 'right', 'left', 'right'];
+        let konamiCodePosition = 0;
+        let isErudaInit = false;
+        let Contents = [];
+        
+
+        //------------------------------functions------------------------------
+
+
+        function activateDevMode() {
+          DevMenu.style.display = "flex";
+        }
+
+       async function searchLoadedActivitys(searchInput) {
+
+                    //for the things in contents, find all that have an id matching the users search, if not kill the item >:3
+          for (let i = Contents.length - 1; i >= 0; i--) {
+            //had to do some mind hur stuff so user search works for stupid people
+            const tempId = Contents[i].name.toLowerCase().replace(/ /g, "");
+            const temp = document.getElementById(tempId);
+
+            if (temp) {
+              if (!Contents[i].name.toLowerCase().includes(searchInput.toLowerCase())) {
+                temp.style.display = "none";
+              } else {
+                if (RecommendedEnabled == true) {
+                  if (Contents[i].isRecommended == "true") {
+                    temp.style.display = "";
+                  } else {
+                    temp.style.display = "none";
+                  }
+                } else {
+                  temp.style.display = "";
+                }
+              }
+            }
+          }
+          
+        }
+
+       async function loadHtmlActivityIntoFrame(htmlActivityUrl) {
+
+                let htmlContent = "";
+                try {
+                  const response2 = await fetch(htmlActivityUrl);
+                  htmlContent = await response2.text();
+                } catch (error) {
+                  console.error(error);
+                }
+               
                 window.isHtmlCode = true;
                 window.currentContentOfFrame = htmlContent;
                 //import the html into the iframe
-                //iframeDoc.open();
-                //iframeDoc.write(htmlContent);
-                //iframeDoc.close();
                 iframe.src = "about:blank";
                 iframe.srcdoc = htmlContent;
-                //do the default iframe stuff for url based activitys
-              } else if (Content.key == "Info") {
-                alert(Content.url);
-                //some simple stuff because im too lazy
-                fsbContainer.style.left = "-20000px";
-                backButton.style.left = "-1000px";
-                iframe.src = "about:blank";
-                window.currentContentURL = "";
-                iframe.contentDocument = "";
-              } else if (Content.key == "EJS") {
+         fsbContainer.style.left = "auto";
+              backButton.style.left = "720px";
+              backButtonw.style.left = "-99720px";
+
+        }
+
+       async function loadEJSActivityIntoFrame(ejsActivityUrl, ejsActivityName, ejsActivityCore) {
+
                 let htmlContent = `<head>
       <style>
         body, html {
@@ -1460,43 +1128,435 @@
       <script>
         EJS_DEBUG_XX = true;
         EJS_player = "#Activity";
-        EJS_core = "${Content.core}";
-        EJS_ActivityName = "${Content.name}";
+        EJS_core = "${ejsActivityCore}";
+        EJS_ActivityName = "${ejsActivityName}";
         EJS_color = "#0097c4";
         EJS_pathtodata = "https://cdn.emulatorjs.org/latest/data/";
-        EJS_ActivityUrl = "${Content.url}";
+        EJS_ActivityUrl = "${ejsActivityUrl}";
       <\/script>
     
       <script src="https://cdn.emulatorjs.org/latest/data/loader.js"><\/script>
     <\/body>
     `;
-                // let iframeDoc = iframe.contentDocument;
+               
                 window.isHtmlCode = true;
                 window.currentContentOfFrame = htmlContent;
                 //import the html into the iframe
-                //iframeDoc.open();
-                //iframeDoc.write(htmlContent);
-                //iframeDoc.close();
-                iframe.src = "about:blank";
-                iframe.srcdoc = htmlContent;
-              } else {
+                
+              iframe.src = "about:blank";
+              iframe.srcdoc = htmlContent;
+              fsbContainer.style.left = "auto";
+              backButton.style.left = "720px";
+              backButtonw.style.left = "-99720px";
+          
+        }
+
+       async function loadUrlAcivityIntoFrame(urlActivityUrl) {
                 iframe.removeAttribute("srcdoc");
-                iframe.src = Content.url;
+                iframe.src = urlActivityUrl;
                 window.isHtmlCode = false; // Set flag for new tab button
-                window.currentContentURL = Content.url;
+                window.currentContentURL = urlActivityUrl;
+         fsbContainer.style.left = "auto";
+              backButton.style.left = "720px";
+              backButtonw.style.left = "-99720px";
+         //console.log(window.currentContentURL);
+        }
+
+       async function createActivityButton(activityUrl, activityImgUrl, activityName, activityKey, ejsCore ) {
+
+
+            const group = document.createElement("div");
+            const button = document.createElement("button");
+            const label = document.createElement("p");
+          
+            group.className = "button-group";
+            group.id = activityName.toLowerCase().replace(/ /g, "");
+            button.className = "my-button";
+            button.style.background = `url(${activityImgUrl}) no-repeat center center`;
+            button.style.backgroundSize = "cover";
+
+            button.addEventListener("click", async () => {
+              
+              //check if the activity uses raw html
+              if (activityKey == "Url") {
+
+                loadUrlActivityIntoFrame(activityUrl);
+
+              } else if (activityKey == "EJS") {
+                loadEJSActivityIntoFrame(activityUrl, activityName, ejsCore);
+
+               
+              } else {
+                loadHtmlActivityIntoFrame(activityUrl);
               }
             });
             //makes the text for the activity buttons
-            const label = document.createElement("p");
-            label.innerHTML = `<div class="activityText">${Content.name}</div>`;
+            
+            label.innerHTML = `<div class="activityText">${activityName}</div>`;
             group.appendChild(button);
             group.appendChild(label);
             container.appendChild(group);
+          }
+
+       async function loadActivities(jsonUrl) {
+          container.innerHTML = "";
+          Contents = [];
+          try {
+            const response1 = await fetch(
+              jsonUrl + "?t=" + Date.now()
+            );
+            Contents = await response1.json();
+          } catch (error) {
+            console.error(error);
+          }
+          //sorts in abc order
+          Contents.sort((a, b) => a.name.localeCompare(b.name));
+          //loops though activitys and make a button for each one
+          Contents.forEach((Content) => {
+
+          createActivityButton(Content.url, Content.img ,Content.name, Content.key, "");
           });
+       }
+
+       async function loadHTMLNewTab(htmlToLoad) {
+              let newTab = window.open("", "_blank");
+              newTab.document.open();
+              newTab.document.write(`
+                    <head>
+                      <script>
+                        window.addEventListener("beforeunload", function (event) {
+                          event.preventDefault();
+                          event.returnValue = "";
+                        });
+                      <\/script>
+                      <style>
+                        body, html { margin: 0; padding: 0; width: 100%; height: 100%; background: #000; overflow: hidden; }
+                        iframe { width: 100%; height: 100%; border: none; }
+                      <\/style>
+                    <\/head>
+                    <body>
+                      <iframe id="newTabIframe" sandbox="allow-scripts allow-same-origin"><\/iframe>
+                    <\/body>
+                    <\/html>`);
+              newTab.document.close();
+              const newIframe = newTab.document.getElementById("newTabIframe");
+              const newIframeDoc = newIframe.contentDocument || newIframe.contentWindow.document;
+              //put html content of the Activity into the sandboxed iframe.
+              newIframeDoc.open();
+              newIframeDoc.write(htmlToLoad);
+         //console.log(htmlToLoad);
+              newIframeDoc.close();
+       }
+
+       async function loadUrlNewTab(urlToLoad) {
+            let newTab = window.open("", "_blank");
+            newTab.document.write(`
+              <head>
+                
+                <script>
+                  window.addEventListener("beforeunload", function (event) {
+                    event.preventDefault();
+                    event.returnValue = "";
+                  });
+                <\/script>
+                <style>
+                  body, html { margin: 0; padding: 0; width: 100%; height: 100%; background: #000; overflow: hidden; }
+                  iframe { width: 100%; height: 100%; border: none; }
+                </style>
+              <\/head>
+              <body>
+                <iframe src="${urlToLoad}"></iframe>
+              <\/body>
+              <\/html>`);
+            
+         
+       }
+
+       async function checkVersion(versionURL, versionInt) {
+
+          if (debugVersionSwitch == 1)
+          {
+            window.HtmlVersion = "-1"
+          } else {
+            window.HtmlVersion = "6";
+          }
+          window.NewestHtmlVers = versionInt;
+          if (infoText) {
+            infoText.innerHTML = `
+                        Info: <br><br> 
+                        Press Shift + \\ to open panic mode. <br> 
+                        Current Version: ${window.HtmlVersion} | Newest: ${window.NewestHtmlVers}<br><br>
+                        This site is not affiliated with any activities included...
+                    `;
+          }
+          if (versionInt !== window.HtmlVersion) {
+            if (confirm("New version available! Download now?")) {
+              const updateRes = await fetch(`${versionURL}NewestVersion.html${timestamp}`);
+              const blob = new Blob([await updateRes.text()], {
+                type: "text/html"
+              });
+              
+              updateLink.href = URL.createObjectURL(blob);
+              updateLink.click();
+            }
+          }
+        
+      }
+
+       async function loadExternalAssets(baseUrl) {
+        //const baseUrl = 'https://cdn.jsdelivr.net/gh/DDD-Dev2/DevSpace@main/';
+        
+        //set dubug menu url
+        const block = document.getElementById("debugUrlCodeBlock");
+        block.innerHTML = baseUrl;
+        const files = [{
+            id: 'version',
+            url: `https://cdn.jsdelivr.net/gh/DDD-Dev2/DevSpace@main/HtmlVersion.txt${timestamp}`
+          },
+          {
+            id: 'popout',
+            url: `${baseUrl}popoutText.txt${timestamp}`
+          },
+          {
+            id: 'mainMsg',
+            url: `${baseUrl}mainMessage.txt${timestamp}`
+          }
+        ];
+        try {
+          const results = await Promise.all(files.map(file =>
+            fetch(file.url).then(res => res.text())
+          ));
+          const [versionData, popoutData, mainMsgData] = results.map(t => t.trim());
+
+          checkVersion(baseUrl, versionData);
+          window.NewestHtmlVers = versionData;
+          
+          if (popText) popText.textContent = popoutData;
+          if (mainText) mainText.innerHTML = mainMsgData;
+          
+        } catch (error) {
+          console.error("Asset Load Failure:", error);
+          mainText.innerHTML = "Error loading latest updates.";
+          popText.innerHTML = "Error";
         }
+      }
+
+
+        
+        //------------------------------Event Listeners----------------------------------
+
+        //get keydown for debug menu
+        document.addEventListener('keydown', function(e) {
+          let key = allowedKeys[e.keyCode];
+          let requiredKey = konamiCode[konamiCodePosition];
+          if (key == requiredKey) {
+            konamiCodePosition++;
+            if (konamiCodePosition == konamiCode.length) {
+              activateDevMode();
+              konamiCodePosition = 0;
+            }
+          } else {
+            konamiCodePosition = 0;
+          }
+        });
+
+        //event list for penic frame.
+        document.addEventListener("keydown", (event) => {
+          if (event.key === '|') {
+            //panicframe.src = "https://www.desmos.com/calculator";
+            if (panicframe.requestFullscreen) {
+              panicframe.requestFullscreen();
+            }
+          }
+        });
+
+        //event listener for switch to change activity url for all elements.
+        BetaActSwitch.addEventListener('change', () => {
+          if (BetaActSwitch.checked) {
+            loadActivities("https://bitbucket.org/ddd_dev-workspace/dev-space/raw/main/Activitys.json");
+            loadExternalAssets('https://bitbucket.org/ddd_dev-workspace/dev-space/raw/main/');
+          } else {
+            loadExternalAssets('https://cdn.jsdelivr.net/gh/DDD-Dev2/DevSpace@main/');
+            loadActivities("https://cdn.jsdelivr.net/gh/DDD-Dev2/DevSpace@main/Activitys.json");
+          }
+        });
+
+        //event listener for version debug switch.
+        VersionSwitch.addEventListener('change', () => {
+          if (VersionSwitch.checked) {
+            //console.log("switched");
+            window.debugVersionSwitch = "1";
+             loadExternalAssets('https://cdn.jsdelivr.net/gh/DDD-Dev2/DevSpace@main/');
+            loadActivities("https://cdn.jsdelivr.net/gh/DDD-Dev2/DevSpace@main/Activitys.json");
+          } else {
+            //console.log("switched");
+            window.debugVersionSwitch = "0";
+             loadExternalAssets('https://cdn.jsdelivr.net/gh/DDD-Dev2/DevSpace@main/');
+             loadActivities("https://cdn.jsdelivr.net/gh/DDD-Dev2/DevSpace@main/Activitys.json");
+          }
+        });
+
+        //event lis for the custon activity input.
+        customActInput.addEventListener("keyup", (e) => {
+            if (e.key === 'Enter' || e.keyCode === 13) {
+             if (htmlUrlSwitch.checked) {
+               loadUrlAcivityIntoFrame(customActInput.value);
+             } else {
+               loadHtmlActivityIntoFrame(customActInput.value);
+             }
+            }    
+          });
+
+        //event list for the search bar.
+        SearchFeild.addEventListener("input", function(event) {
+          searchLoadedActivitys(SearchFeild.value);
+        });
+
+        //debug menu close button
+        DevCloseBtn.addEventListener("click", () => {
+          DevMenu.style.display = "none";
+        });
+        
+        //inspect element enable button
+        erudaEnableBtn.addEventListener("click", () => {
+          if (typeof eruda === 'undefined') {
+            alert("Eruda failed to load from the CDN.");
+            return;
+          }
+          if (!isErudaInit) {
+            eruda.init();
+            isErudaInit = true;
+          } else {
+            // If it's already initialized, just make sure the panel is visible
+            
+          }
+        });
+
+        //enable button for information tab
+        mainInfoButton.addEventListener("click", () => {
+          mainInfoText.style.left = "auto";
+          backButtonI.style.left = "1000px";
+        });
+
+        //main activity window button
+        Activitys.addEventListener("click", () => {
+          ActNumTxt.innerHTML = "" + Contents.length;
+          Webports.style.display = "block";
+          TC.style.height = "80px";
+          PC.style.top = "-999px";
+          Title.style.backgroundcolor = "#000f";
+          titleContainer.style.height = "5px";
+          backButtonw.style.left = "720px";
+          SearchFeild.style.left = "15px";
+          activityCount.style.display = "flex";
+        });
+
+        //recomended activity enable button
+        Recommended.addEventListener("click", () => {
+          Webports.style.display = "block";
+          titleContainer.style.height = "5px";
+          TC.style.height = "80px";
+          PC.style.top = "-999px";
+          Title.style.backgroundcolor = "#000f";
+          backButtonw.style.left = "720px";
+          SearchFeild.style.left = "15px";
+          RecommendedEnabled = true;
+          activityCount.style.display = "flex";
+
+          //look for tagged with recomended.
+          let temp2 = 0;
+          for (let i = Contents.length - 1; i >= 0; i--) {
+            //had to do some mind hur stuff so user search works for stupid people
+            const tempId = Contents[i].name.toLowerCase().replace(/ /g, "");
+            const temp = document.getElementById(tempId);
+            if (Contents[i].isRecommended == "true") {
+              temp.style.display = "";
+              temp2++;
+              ActNumTxt.innerHTML = "" + temp2;
+            } else {
+              temp.style.display = "none";
+            }
+          }
+        });
+
+        //back button for iframe window tab
+        backButton.addEventListener("click", () => {
+          //back button for main activitys tab, styling and reseting the current activity. so you can actualy switch.
+          fsbContainer.style.left = "-20000px";
+          backButton.style.left = "-1000px";
+          iframe.removeAttribute("srcdoc");
+          iframe.src = "about:blank";
+          window.currentContentURL = "";
+          iframe.contentDocument.innerHTML = "";
+          backButtonw.style.left = "720px";
+        });
+
+        //back button for info tab i think
+        backButtonI.addEventListener("click", () => {
+          mainInfoText.style.left = "-20000px";
+          backButtonI.style.left = "-1000px";
+        });
+
+        //back button for recomended tab
+        backButtonw.addEventListener("click", () => {
+          //back button for activitys tab, just styling tbh
+          Webports.style.display = "none";
+          TC.style.height = "150px";
+          titleContainer.style.height = "70px";
+          PC.style.top = "70px";
+          Title.style.backgroundcolor = "#000";
+          backButtonw.style.left = "-9999px";
+          SearchFeild.style.left = "-99999px";
+          activityCount.style.display = "none";
+          RecommendedEnabled = false;
+          for (let i = Contents.length - 1; i >= 0; i--) {
+            const tempId = Contents[i].name.toLowerCase().replace(/ /g, "");
+            const temp = document.getElementById(tempId);
+            if (Contents[i].isRecommended == "true") {
+              temp.style.display = "";
+            } else {
+              temp.style.display = "";
+            }
+          }
+        });
+
+        //fullscreen button event list
+        FullScreenBtn.addEventListener("click", () => {
+          if (iframe.requestFullscreen) {
+            iframe.requestFullscreen();
+          }
+        });
+
+        //infor button on games event sist
+        infoButton.addEventListener("click", () => {
+          alert(
+            "Some Activitys can take a while to load. If the Activity doesnt load within 5 mins, put in an add Activity request and add a note asking to fix it."
+          );
+        });
+
+        //before unload event listener
+        window.addEventListener("beforeunload", function(event) {
+          event.preventDefault();
+          event.returnValue = "";
+        });
+
+        //newtab event listener
+        newTabButton.addEventListener("click", () => {
+            if (window.isHtmlCode) {
+              loadHTMLNewTab(window.currentContentOfFrame);
+            } else {
+              loadUrlNewTab(window.currentContentURL);
+            }
+
+        });
+
+//------------------Actual Run On Load--------------------------------------
+        
+        
+        loadActivities("https://cdn.jsdelivr.net/gh/DDD-Dev2/DevSpace@main/Activitys.json");
+        loadExternalAssets("https://cdn.jsdelivr.net/gh/DDD-Dev2/DevSpace@main/");
         //closed dom content onload
       });
     </script>
   </body>
-
 </html>
