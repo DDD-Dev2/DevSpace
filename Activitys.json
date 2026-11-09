@@ -5271,11 +5271,27 @@
     "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/878.html"
     
   },
+{
+
+    "name": "The Joy of Creation: Story Mode",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/879.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/879.html"
+     },
   {
 
-    "name": "Minecraft 26.2",
-    "img": "https://store-images.s-microsoft.com/image/apps.17382.13510798885735219.9735d495-578c-4a4c-b892-3eb3a780b3a0.d3792486-cf98-40c0-a2c1-d6443f0e2b70",
-    "url": "https://cdn.jsdelivr.net/gh/MilkdromedaStudios/all-of-eaglercraft@main/Eaglercraft%2026.2%20u2.html"
-    
-  }
+    "name": "Castle Crashers",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/880.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/880.html"
+      },
+  {
+       "name": "Feed and Grow Fish",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/881.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/881.html"
+     },
+  {
+   
+    "name": "Minecraft: Story Mode",
+    "img": "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/882.png",
+    "url": "https://cdn.jsdelivr.net/gh/freebuisness/html@main/882.html"
+     }
 ]
